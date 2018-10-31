@@ -52,13 +52,17 @@ export interface Config {
   // this is the path to the directory containing iap-sanbox/iap-live files
   googlePublicKeyPath?: string;
   // optional, for Google Play subscriptions
+  googlePublicKeyStrLive?: string;
+  // optional, for Google Play subscriptions
+  googlePublicKeyStrSandBox?: string;
+  // optional, for Google Play subscriptions
   googleAccToken?: string;
   // optional, for Google Play subscritions
   googleRefToken?: string;
   // optional, for Google Play subscriptions
-  clientId?: string;
+  googleClientID?: string;
   // optional, for Google Play subscriptions
-  clientSecret?: string;
+  googleClientSecret?: string;
   // optional, for Google Play subscriptions
   refreshToken?: string;
 
